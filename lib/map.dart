@@ -4,6 +4,8 @@ void main() {
   var map3 = <String, String>{};
 
   print(map1);
+  print(map2);
+  print(map3);
 
   map1['first'] = 'Iqbal';
   map1['second'] = 'Rasetio';
