@@ -24,4 +24,8 @@ void main() {
   // konversi secara paksa
   int? nullableNumber;
   int nonNullableNumber = nullableNumber!;
+
+  //nullable member
+  int? dataInt;
+  double? dataDouble = dataInt?.toDouble();
 }
