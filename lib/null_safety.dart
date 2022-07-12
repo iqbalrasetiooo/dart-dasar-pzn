@@ -20,4 +20,8 @@ void main() {
   String? guest;
   String guestName = guest ?? 'Guest';
   print(guestName);
+
+  // konversi secara paksa
+  int? nullableNumber;
+  int nonNullableNumber = nullableNumber!;
 }
