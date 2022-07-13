@@ -5,4 +5,7 @@ void optionalParameter(String firstName,
   print('Hello $firstName $middleName $lastName');
 }
 
-void main() {}
+void main() {
+  optionalParameter('firstName');
+  optionalParameter('Mohammad', 'Safik', 'Seftian');
+}
